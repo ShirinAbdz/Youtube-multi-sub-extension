@@ -1,6 +1,6 @@
 <p align="center">
   <a href="README.en.md"><img alt="English" src="https://img.shields.io/badge/English-E50914?style=for-the-badge"></a>
-  <a href="README.md"><img alt="فارسی" src="https://img.shields.io/badge/فارسی-grey?style=for-the-badge"></a>
+  <a href="README.md"><img alt="Persian" src="https://img.shields.io/badge/Persian-grey?style=for-the-badge"></a>
 </p>
 <h1 align="center">🌐 Multi Subtitles for YouTube</h1>
 
