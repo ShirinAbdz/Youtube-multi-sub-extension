@@ -1,3 +1,5 @@
+<p align="center"><b>English</b> · <a href="README.md">فارسی</a></p>
+
 <div dir="rtl" align="right">
 
 <h1 align="center">🌐 Multi Subtitles for YouTube</h1>
