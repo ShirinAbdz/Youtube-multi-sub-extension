@@ -193,4 +193,7 @@ yt-multi-subs/
 - [ ] میان‌بر کیبورد برای روشن و خاموش کردن
 - [ ] پشتیبانی از Firefox
 
+---
+
+<img width="800" height="450" alt="promo-git" src="https://github.com/user-attachments/assets/10ed1ce4-44e9-4598-8b10-aedab99ebcf6" />
 
