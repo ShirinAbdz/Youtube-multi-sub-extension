@@ -1,10 +1,10 @@
-<p align="center"><b>English</b> · <a href="README.md">فارسی</a></p>
+<div dir="rtl" align="right">
 
 <h1 align="center">🌐 Multi Subtitles for YouTube</h1>
 
 <p align="center">
-  <b>Multiple subtitles. One video. At the same time.</b><br>
-  Original language + Persian translation + any other language you want, stacked on screen.
+  <b>چند زیرنویس، هم‌زمان، روی یک ویدیو.</b><br>
+  زبان اصلی + ترجمه‌ی فارسی + هر زبان دیگه‌ای که بخوای، همه زیر هم.
 </p>
 
 <p align="center">
@@ -16,180 +16,181 @@
 
 ---
 
-## ✨ What does it do?
+## ✨ این اکستنشن چی کار می‌کنه؟
 
-When you watch a foreign-language video, YouTube makes you pick one subtitle track: the original *or* a translation.
-This extension lets you show **up to 4 subtitles at once**, for example English and Persian together, so you can learn a language without missing a word.
+وقتی ویدیوی خارجی می‌بینی، معمولاً مجبوری بین «زیرنویس اصلی» و «ترجمه» یکی رو انتخاب کنی.
+این اکستنشن اجازه می‌ده **تا ۴ زیرنویس رو هم‌زمان** نشون بدی. مثلاً انگلیسی و فارسی با هم، که هم زبان یاد بگیری هم چیزی از دستت نره.
 
-### Features
+### امکانات
 
-- 🗂 **Up to 4 subtitles at the same time**, each in its own color
-- 🌍 **Auto-translation into dozens of languages** (Persian, Arabic, Turkish, German, Spanish, and more) using YouTube's built-in translation
-- 🏷 Clear labels telling **original** tracks apart from **auto-translated** ones
-- 🔍 **Quick language search**
-- ↕️ **Reorder** subtitles with up/down buttons
-- 🎛 Adjustable **text size** and **distance from the bottom** of the video
-- 🙈 Option to **hide YouTube's own captions** so they don't overlap
-- 💾 **Settings are remembered**, so your choices carry over to the next video
-- 🖥 Works in **fullscreen**
-- 🔒 **No server, no data collection** (details below)
-
----
-
-## 📦 Installation
-
-The extension isn't on the Chrome Web Store, so you install it manually. It takes under a minute:
-
-1. Download this project (or extract the zip).
-2. Open `chrome://extensions` in Chrome.
-3. Turn on **Developer mode** (top right).
-4. Click **Load unpacked** and select the `yt-multi-subs` folder.
-5. Open any YouTube video. If it was already open, hard-refresh with `Ctrl + Shift + R`.
-
-> 💡 Other Chromium-based browsers such as Edge, Brave and Opera should work too.
+- 🗂 **نمایش هم‌زمان تا ۴ زیرنویس** با رنگ جدا برای هر زبان
+- 🌍 **ترجمه‌ی خودکار به ده‌ها زبان** (فارسی، عربی، ترکی، انگلیسی، آلمانی و ...) با استفاده از ترجمه‌ی داخلی یوتیوب
+- 🏷 تشخیص زیرنویس‌های **اصلی** ویدیو از **ترجمه‌ی خودکار** و نمایش برچسب برای هر کدوم
+- 🔍 **جستجوی سریع** بین زبان‌ها
+- ↕️ **تغییر ترتیب** زیرنویس‌ها با دکمه‌های بالا و پایین
+- 🎛 تنظیم **اندازه‌ی متن** و **فاصله از پایین ویدیو**
+- 🙈 امکان **مخفی کردن زیرنویس خود یوتیوب** تا روی هم نیفتن
+- 💾 **ذخیره‌ی خودکار تنظیمات**؛ انتخاب‌هات برای ویدیوی بعدی هم می‌مونه
+- 🖥 کار کردن در **حالت تمام‌صفحه**
+- 🔒 **بدون سرور و بدون جمع‌آوری اطلاعات** (توضیح بیشتر پایین‌تر)
 
 ---
 
-## 🚀 Usage
+## 📦 نصب
 
-1. On a video, find the **🌐** button next to the player controls at the bottom.
-2. Click it to open the settings panel.
-3. Under **Add language**, pick the languages you want (up to 4).
-4. Wait a few seconds until a ✓ appears next to each one. The subtitles then show up on the video.
+این اکستنشن توی Chrome Web Store نیست و به‌صورت دستی نصب می‌شه. کمتر از یک دقیقه طول می‌کشه:
 
-### Status icons next to each language
+1. این پروژه رو دانلود کن (یا زیپش رو extract کن).
+2. توی کروم برو به آدرس `chrome://extensions`
+3. سوییچ **Developer mode** (بالا سمت راست) رو روشن کن.
+4. روی **Load unpacked** بزن و پوشه‌ی `yt-multi-subs` رو انتخاب کن.
+5. یه ویدیوی یوتیوب باز کن. اگه از قبل باز بود، با `Ctrl + Shift + R` رفرشش کن.
 
-| Icon | Meaning |
-|:----:|---------|
-| ⏳ | Loading the subtitles |
-| ✓ | Ready and displayed |
-| ⚠️ | Couldn't be fetched (see Troubleshooting) |
-
-### Panel controls
-
-| Control | What it does |
-|---------|--------------|
-| **Enabled** | Turns the whole extension on or off |
-| **↑ / ↓** | Reorders subtitles (the first one is shown on top) |
-| **✕** | Removes a language from the list |
-| **Text size** | Makes the subtitles bigger or smaller |
-| **Distance from bottom** | Moves the subtitles up or down on the video |
-| **Hide YouTube captions** | Prevents YouTube's own captions from showing again |
+> 💡 مرورگرهای مبتنی بر Chromium مثل Edge، Brave و Opera هم باید کار کنن.
 
 ---
 
-## ⚙️ How it works
+## 🚀 طرز استفاده
+
+1. روی ویدیو برو و دکمه‌ی **🌐** رو کنار دکمه‌های پایین پلیر پیدا کن.
+2. روش بزن تا پنل تنظیمات باز بشه.
+3. از بخش **«افزودن زبان»** زبان‌های دلخواهت رو انتخاب کن (حداکثر ۴ تا).
+4. چند ثانیه صبر کن تا کنار هر زبان علامت ✓ بیاد. بعدش زیرنویس‌ها روی ویدیو ظاهر می‌شن.
+
+### معنی آیکون‌های کنار هر زبان
+
+| آیکون | معنی |
+|:-----:|------|
+| ⏳ | در حال دریافت زیرنویس |
+| ✓ | آماده و در حال نمایش |
+| ⚠️ | دریافت نشد (بخش عیب‌یابی رو ببین) |
+
+### کنترل‌های پنل
+
+| کنترل | کاربرد |
+|-------|--------|
+| **فعال** | روشن و خاموش کردن کل اکستنشن |
+| **↑ / ↓** | جابه‌جا کردن ترتیب زیرنویس‌ها (اولی بالاتر نمایش داده می‌شه) |
+| **✕** | حذف یک زبان از لیست |
+| **اندازه متن** | بزرگ و کوچک کردن زیرنویس‌ها |
+| **فاصله از پایین** | بالا و پایین بردن زیرنویس‌ها روی ویدیو |
+| **مخفی کردن زیرنویس یوتیوب** | جلوگیری از نمایش دوباره‌ی زیرنویس خود یوتیوب |
+
+---
+
+## ⚙️ پشت صحنه چطور کار می‌کنه؟
 
 ```
- YouTube video
+ ویدیوی یوتیوب
       │
       ▼
- 1. The list of available caption tracks is read from the player data
+ ۱. لیست زیرنویس‌های ویدیو از اطلاعات پلیر خونده می‌شه
       │
       ▼
- 2. For each selected language, the caption file (json3) is requested from YouTube
-    • Language exists in the video  → fetched directly
-    • Language doesn't exist        → YouTube's auto-translation via the tlang parameter
+ ۲. برای هر زبان انتخاب‌شده، فایل زیرنویس (json3) از خود یوتیوب گرفته می‌شه
+    • زبان موجود در ویدیو ← مستقیم
+    • زبان موجود نیست   ← با پارامتر tlang ترجمه‌ی خودکار یوتیوب
       │
       ▼
- 3. On every frame, the cue matching the current playback time is found (binary search)
+ ۳. با هر فریم، زیرنویسِ مربوط به زمان فعلی ویدیو پیدا می‌شه (جستجوی دودویی)
       │
       ▼
- 4. Subtitles are drawn on top of the player
+ ۴. زیرنویس‌ها روی پلیر رسم می‌شن
 ```
 
-Technical note: YouTube requires a token (`pot`) to fetch captions. The extension picks up that token from the player's own request and reuses it. That's why you sometimes need to turn on YouTube's own **CC** button once (see below).
+نکته‌ی فنی: یوتیوب برای دریافت زیرنویس یه توکن (`pot`) لازم داره. اکستنشن همون توکن رو از درخواست خود پلیر برمی‌داره و دوباره استفاده می‌کنه. به همین دلیل گاهی لازمه یه بار دکمه‌ی **CC** خود یوتیوب رو روشن کنی (پایین‌تر توضیح داده شده).
 
 ---
 
-## 🛠 Troubleshooting
+## 🛠 عیب‌یابی
 
 <details>
-<summary><b>The 🌐 button doesn't appear</b></summary>
+<summary><b>دکمه‌ی 🌐 نمایش داده نمی‌شه</b></summary>
 
-- Hard-refresh the page with `Ctrl + Shift + R`.
-- On `chrome://extensions`, make sure the extension is enabled and click the reload icon (⟳).
-- Your Chrome version must be **111 or newer** (check `chrome://version`).
-- Press F12 and look in the Console for messages starting with `[Multi Subs]`.
+- صفحه رو با `Ctrl + Shift + R` رفرش کن.
+- توی `chrome://extensions` مطمئن شو اکستنشن روشنه و روی آیکون reload (⟳) زده باشی.
+- نسخه‌ی کروم باید **۱۱۱ یا بالاتر** باشه (`chrome://version`).
+- روی صفحه F12 بزن و توی Console دنبال پیام‌هایی با پیشوند `[Multi Subs]` بگرد.
 
 </details>
 
 <details>
-<summary><b>A language shows ⚠️ and no subtitles appear</b></summary>
+<summary><b>کنار زبان ⚠️ می‌آد و زیرنویس نشون داده نمی‌شه</b></summary>
 
-YouTube sometimes refuses to serve captions without a valid token.
-Turn on YouTube's own **CC** button once. The extension picks up the token and retries automatically. You can turn CC off afterwards.
-
-</details>
-
-<details>
-<summary><b>I see "This video has no subtitles"</b></summary>
-
-The video has neither manual nor auto-generated captions, so there's nothing to translate. This case isn't supported.
+یوتیوب بعضی وقت‌ها دریافت زیرنویس رو بدون توکن قبول نمی‌کنه.
+یه بار دکمه‌ی **CC** خود یوتیوب رو روشن کن. اکستنشن توکن رو برمی‌داره و خودش دوباره تلاش می‌کنه. بعدش می‌تونی CC رو خاموش کنی.
 
 </details>
 
 <details>
-<summary><b>YouTube's captions and the extension's captions overlap</b></summary>
+<summary><b>پیام «این ویدیو زیرنویس ندارد» می‌بینم</b></summary>
 
-Turn on **Hide YouTube captions** in the panel.
+ویدیو نه زیرنویس دستی داره نه خودکار، پس چیزی برای ترجمه وجود نداره. این حالت پشتیبانی نمی‌شه.
 
 </details>
 
 <details>
-<summary><b>Subtitles don't show after moving to another video</b></summary>
+<summary><b>زیرنویس یوتیوب و زیرنویس اکستنشن روی هم می‌افتن</b></summary>
 
-The extension checks for video changes every second, so it usually loads within a second or two. If it doesn't, open the panel and read the message at the bottom.
+گزینه‌ی **مخفی کردن زیرنویس خود یوتیوب** رو توی پنل روشن کن.
+
+</details>
+
+<details>
+<summary><b>بعد از رفتن به ویدیوی دیگه زیرنویس نمی‌آد</b></summary>
+
+اکستنشن هر ثانیه تغییر ویدیو رو چک می‌کنه، پس معمولاً بعد از یکی دو ثانیه خودش لود می‌کنه. اگه نشد، پنل رو باز کن و پیام پایین پنل رو بخون.
 
 </details>
 
 ---
 
-## 🔐 Privacy
+## 🔐 حریم خصوصی
 
-- The extension **does not collect or send any data**.
-- The only network requests it makes are caption requests to **YouTube itself**.
-- Settings are stored only in your browser's `localStorage`.
-- No servers, analytics or external libraries are involved.
+- اکستنشن **هیچ داده‌ای جمع‌آوری یا ارسال نمی‌کنه**.
+- تنها درخواست‌های شبکه‌ای، درخواست زیرنویس از **خود یوتیوب** هست.
+- تنظیمات فقط توی `localStorage` مرورگر خودت ذخیره می‌شه.
+- هیچ سرور، آنالیتیکس یا کتابخونه‌ی خارجی‌ای توی کار نیست.
 
 ---
 
-## 🗂 Project structure
+## 🗂 ساختار پروژه
 
 ```
 yt-multi-subs/
-├── manifest.json   ← extension config (Manifest V3)
-├── content.js      ← all the logic: fetching, rendering, UI
-├── README.md       ← Persian README
-└── README.en.md    ← this file
+├── manifest.json   ← تنظیمات اکستنشن (Manifest V3)
+├── content.js      ← کل منطق: دریافت زیرنویس، رندر، رابط کاربری
+└── README.md
 ```
 
-The code is **plain JavaScript** with no dependencies and no build step.
+کد با **جاوااسکریپت خالص** نوشته شده و هیچ وابستگی یا مرحله‌ی build ای نداره.
 
-### Notes for developers
+### نکات برای توسعه‌دهنده‌ها
 
-- The script runs with `"world": "MAIN"` so it can access `movie_player` and YouTube's own network requests.
-- YouTube enforces **Trusted Types**, so `innerHTML` doesn't work. The whole UI is built with `document.createElement`.
-- Each language's subtitles are fetched once per video and kept in memory.
-
----
-
-## ⚠️ Limitations
-
-- YouTube occasionally changes its page structure or how captions are served, so the extension may need updates.
-- Auto-translation quality depends on YouTube and may not be accurate.
-- Videos with no captions at all aren't supported.
-- Currently works only on `www.youtube.com` (not mobile web, not Shorts).
+- اسکریپت با `"world": "MAIN"` اجرا می‌شه تا به `movie_player` و درخواست‌های شبکه‌ی خود یوتیوب دسترسی داشته باشه.
+- یوتیوب از **Trusted Types** استفاده می‌کنه، بنابراین `innerHTML` کار نمی‌کنه و کل رابط کاربری با `document.createElement` ساخته شده.
+- زیرنویس هر زبان فقط یک‌بار برای هر ویدیو دریافت و نگه داشته می‌شه.
 
 ---
 
-## 🗺 Roadmap
+## ⚠️ محدودیت‌ها
 
-- [ ] Per-subtitle color and font settings
-- [ ] Export subtitles as `.srt`
-- [ ] Keyboard shortcut to toggle
-- [ ] Firefox support
+- یوتیوب ساختار صفحه و روش دریافت زیرنویس رو گاهی تغییر می‌ده و ممکنه اکستنشن نیاز به آپدیت پیدا کنه.
+- کیفیت ترجمه‌ی خودکار به خود یوتیوب بستگی داره و ممکنه دقیق نباشه.
+- ویدیوهایی که اصلاً زیرنویس ندارن پشتیبانی نمی‌شن.
+- فعلاً فقط روی `www.youtube.com` کار می‌کنه (نه نسخه‌ی موبایل و نه Shorts).
 
 ---
 
-<p align="center">Made for people who don't want to miss a word while watching ❤️</p>
+## 🗺 ایده‌های آینده
+
+- [ ] رنگ و فونت قابل تنظیم برای هر زیرنویس
+- [ ] دانلود زیرنویس‌ها به‌صورت `.srt`
+- [ ] میان‌بر کیبورد برای روشن و خاموش کردن
+- [ ] پشتیبانی از Firefox
+
+---
+
+<p align="center">با ❤️ برای کسایی که می‌خوان موقع تماشا چیزی رو از دست ندن</p>
+
+</div>
