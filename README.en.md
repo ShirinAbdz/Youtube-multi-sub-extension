@@ -194,4 +194,8 @@ The code is **plain JavaScript** with no dependencies and no build step.
 
 ---
 
-<p align="center">Made for people who don't want to miss a word while watching ❤️</p>
+<p align="center">
+
+  <img width="800" height="450" alt="promo-git" src="https://github.com/user-attachments/assets/1539ab3b-370d-4bfd-82de-ed1d05802ec2" />
+
+</p>
