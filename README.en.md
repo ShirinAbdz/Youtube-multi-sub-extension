@@ -1,5 +1,7 @@
-<p align="center"><b>English</b> · <a href="README.md">فارسی</a></p>
-
+<p align="center">
+  <a href="README.en.md"><img alt="English" src="https://img.shields.io/badge/English-E50914?style=for-the-badge"></a>
+  <a href="README.md"><img alt="فارسی" src="https://img.shields.io/badge/فارسی-grey?style=for-the-badge"></a>
+</p>
 <h1 align="center">🌐 Multi Subtitles for YouTube</h1>
 
 <p align="center">
@@ -18,7 +20,7 @@
 
 ## ✨ What does it do?
 
-When you watch a foreign-language video, YouTube makes you pick one subtitle track: the original *or* a translation.
+When you watch a foreign-language video, YouTube makes you pick one subtitle track: the original _or_ a translation.
 This extension lets you show **up to 4 subtitles at once**, for example English and Persian together, so you can learn a language without missing a word.
 
 ### Features
@@ -59,21 +61,21 @@ The extension isn't on the Chrome Web Store, so you install it manually. It take
 
 ### Status icons next to each language
 
-| Icon | Meaning |
-|:----:|---------|
-| ⏳ | Loading the subtitles |
-| ✓ | Ready and displayed |
-| ⚠️ | Couldn't be fetched (see Troubleshooting) |
+| Icon | Meaning                                   |
+| :--: | ----------------------------------------- |
+|  ⏳  | Loading the subtitles                     |
+|  ✓   | Ready and displayed                       |
+|  ⚠️  | Couldn't be fetched (see Troubleshooting) |
 
 ### Panel controls
 
-| Control | What it does |
-|---------|--------------|
-| **Enabled** | Turns the whole extension on or off |
-| **↑ / ↓** | Reorders subtitles (the first one is shown on top) |
-| **✕** | Removes a language from the list |
-| **Text size** | Makes the subtitles bigger or smaller |
-| **Distance from bottom** | Moves the subtitles up or down on the video |
+| Control                   | What it does                                       |
+| ------------------------- | -------------------------------------------------- |
+| **Enabled**               | Turns the whole extension on or off                |
+| **↑ / ↓**                 | Reorders subtitles (the first one is shown on top) |
+| **✕**                     | Removes a language from the list                   |
+| **Text size**             | Makes the subtitles bigger or smaller              |
+| **Distance from bottom**  | Moves the subtitles up or down on the video        |
 | **Hide YouTube captions** | Prevents YouTube's own captions from showing again |
 
 ---
