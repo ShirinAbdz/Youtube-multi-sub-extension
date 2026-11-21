@@ -192,10 +192,3 @@ The code is **plain JavaScript** with no dependencies and no build step.
 - [ ] Keyboard shortcut to toggle
 - [ ] Firefox support
 
----
-
-<p align="center">
-
-  <img width="800" height="450" alt="promo-git" src="https://github.com/user-attachments/assets/1539ab3b-370d-4bfd-82de-ed1d05802ec2" />
-
-</p>
